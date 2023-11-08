@@ -1,3 +1,6 @@
+//html prompts
+let question = prompt("ask your question:");
+
 // variable created and random integer created
 let roundMathRandom;
 roundMathRandom = Math.floor(Math.random() * 10) + 1;
@@ -24,3 +27,4 @@ if (roundMathRandom === 1){
 } else if (roundMathRandom === 10){
     console.log("Its Not Going To Happen");
 }
+
